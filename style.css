@@ -81,7 +81,7 @@ svg {
 .controls button {
   padding: 1rem;
   border: none;
-  background-color: rgb(95, 93, 93);
+  background-color: rgb(61, 59, 59);
   color: white;
   font-size: 1rem;
   cursor: pointer;
@@ -106,6 +106,23 @@ select {
   box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
   cursor: pointer;
   color: white;
+}
+
+.mute.active {
+  background-color: gray;
+}
+
+.tempo {
+  margin: 3rem;
+}
+
+.tempo-slider {
+  padding: 1rem;
+  --webkit-appearance: none;
+  appearance: none;
+
+  position: relative;
+  background-color: rgb(88, 88, 88);
 }
 
 @keyframes playTrack {
